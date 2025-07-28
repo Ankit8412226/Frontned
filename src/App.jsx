@@ -21,6 +21,7 @@ import {
   Zap
 } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import VoiceChat from './VoiceChat';
 
 const App = () => {
   const [activeTab, setActiveTab] = useState('email');
@@ -1543,6 +1544,7 @@ const App = () => {
           </div>
         </div>
       </div>
+      <VoiceChat/>
     </div>
   );
 };
